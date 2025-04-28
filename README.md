@@ -41,7 +41,8 @@ Functional Simulation:
       (The path of cshrc could vary depending on the installation destination)
       
 After this you can see the window like below
-![image](https://github.com/user-attachments/assets/1286eaff-5e27-4607-9ac1-b189a8336149)
+![Screenshot 2025-04-28 214204](https://github.com/user-attachments/assets/3a1583eb-0f34-4bb6-8294-1f20f220d986)
+
 ##  Fig 2: Invoke the Cadence Environment
 
 ## Creating Source Code:
@@ -107,7 +108,8 @@ endmodule
 linux:/> nclaunch&                 // On subsequent calls to NCVERILOG
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple step
-![image](https://github.com/user-attachments/assets/3cbb4984-dd79-42ab-a658-1d44d7d4c48e)
+![Screenshot 2025-04-28 214221](https://github.com/user-attachments/assets/4a3e8c02-e615-4ad8-8874-a52aaa5ebec2)
+
 
 ## Fig 3: Setting Multi-step simulation
 
@@ -115,7 +117,8 @@ Select Multiple Step and then select “Create cds.lib File” as shown in below
 
 Click the cds.lib file and save the file by clicking on Save option
 
-![image](https://github.com/user-attachments/assets/9fc77e04-0d4d-454e-a5b8-e91043329565)
+![Screenshot 2025-04-28 221452](https://github.com/user-attachments/assets/c700087a-9ed8-441f-96fd-e54557c521bd)
+
 
 ## Fig 4: cds.lib file Creation
 
@@ -125,7 +128,8 @@ Click the cds.lib file and save the file by clicking on Save option
 
 We are simulating verilog design without using any libraries
 
-![image](https://github.com/user-attachments/assets/99bd1df9-f0ef-47df-a215-f6474662c067)
+![Screenshot 2025-04-28 214443](https://github.com/user-attachments/assets/392693e3-cdab-47a1-ae41-9445dd8a5fc1)
+
 
 ## Fig 5: Selection of Don’t include any libraries
 
@@ -136,8 +140,7 @@ Click the cds.lib file and save the file by clicking on Save option
 Left side you can see the HDL files. Right side of the window has worklib and snapshots directories listed.
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
-
-![image](https://github.com/user-attachments/assets/7cd2a542-8ec8-407a-969b-7453e2921a18)
+![Screenshot 2025-04-28 214512](https://github.com/user-attachments/assets/88e33341-a9e0-4399-ab3a-14613161c557)
 
 ## Fig 6: Nclaunch Window
 
@@ -163,7 +166,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
-![image](https://github.com/user-attachments/assets/7cf4d8b8-8c50-41d4-8a9b-30cfde040a56)
+![Screenshot (72)](https://github.com/user-attachments/assets/38a2d198-66a9-42ba-b040-80d921fa2123)
+
 
 ## Fig 7: Compiled database in worklib
 
@@ -194,10 +198,6 @@ It also establishes net connectivity and prepares all of this for simulation
     
 After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
-![image](https://github.com/user-attachments/assets/0bf56437-c48c-4017-93f6-9297980acf24)
-
-## Fig 8: Elaboration Launch Option
-
 ### Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
 Inputs: Compiled and Elaborated top level module name 
@@ -208,17 +208,20 @@ It also establishes net connectivity and prepares all of this for simulation
 
 Steps for simulation – Run the simulation command with simulator options
 
-![image](https://github.com/user-attachments/assets/027a5939-f07e-4dc7-bddf-f0d558f7f5ae)
+![Screenshot (73)](https://github.com/user-attachments/assets/9f20bb8d-a787-450d-b9e1-8974a30c7aa5)
 
-## Fig 9: Design Browser window for simulation
 
-![image](https://github.com/user-attachments/assets/c2d6e96c-e62a-43fd-84cd-6a0bed7166d3)
+## Fig 8: Design Browser window for simulation
+
+![Screenshot (74)](https://github.com/user-attachments/assets/0306952a-1e4f-46fa-a232-281ed470a5c7)
+
+
+## Fig 9: Simulation Waveform Window
+
+![Screenshot (75)](https://github.com/user-attachments/assets/9445dfb1-77bb-4d8b-b6d5-eed413a79390)
+
 
 ## Fig 10: Simulation Waveform Window
-
-![image](https://github.com/user-attachments/assets/2138cddf-09c3-4874-8dd1-062d1123ff8b)
-
-## Fig 11: Simulation Waveform Window
 
 ### Result
 

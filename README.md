@@ -117,8 +117,7 @@ Select Multiple Step and then select “Create cds.lib File” as shown in below
 
 Click the cds.lib file and save the file by clicking on Save option
 
-![Screenshot 2025-04-28 221452](https://github.com/user-attachments/assets/c700087a-9ed8-441f-96fd-e54557c521bd)
-
+![Screenshot 2025-04-28 214443](https://github.com/user-attachments/assets/392693e3-cdab-47a1-ae41-9445dd8a5fc1)
 
 ## Fig 4: cds.lib file Creation
 
@@ -128,8 +127,7 @@ Click the cds.lib file and save the file by clicking on Save option
 
 We are simulating verilog design without using any libraries
 
-![Screenshot 2025-04-28 214443](https://github.com/user-attachments/assets/392693e3-cdab-47a1-ae41-9445dd8a5fc1)
-
+![Screenshot 2025-04-28 221452](https://github.com/user-attachments/assets/a1d473aa-1a73-4665-b86e-f1bbab7c1cb7)
 
 ## Fig 5: Selection of Don’t include any libraries
 
@@ -166,8 +164,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
-![Screenshot (72)](https://github.com/user-attachments/assets/38a2d198-66a9-42ba-b040-80d921fa2123)
-
+![Screenshot (73)](https://github.com/user-attachments/assets/9f20bb8d-a787-450d-b9e1-8974a30c7aa5)
 
 ## Fig 7: Compiled database in worklib
 
@@ -208,20 +205,14 @@ It also establishes net connectivity and prepares all of this for simulation
 
 Steps for simulation – Run the simulation command with simulator options
 
-![Screenshot (73)](https://github.com/user-attachments/assets/9f20bb8d-a787-450d-b9e1-8974a30c7aa5)
-
+![Screenshot (74)](https://github.com/user-attachments/assets/0306952a-1e4f-46fa-a232-281ed470a5c7)
 
 ## Fig 8: Design Browser window for simulation
 
-![Screenshot (74)](https://github.com/user-attachments/assets/0306952a-1e4f-46fa-a232-281ed470a5c7)
-
-
-## Fig 9: Simulation Waveform Window
 
 ![Screenshot (75)](https://github.com/user-attachments/assets/9445dfb1-77bb-4d8b-b6d5-eed413a79390)
 
-
-## Fig 10: Simulation Waveform Window
+## Fig 9: Simulation Waveform Window
 
 ### Result
 
